@@ -1,0 +1,200 @@
+html,
+body {
+  /* padding: 0;
+  margin: 0; */
+  font-family:  didot;
+  background-color: #212121;
+  /* background-color: #1e1f20; */
+  color: #ddd;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* CSS */
+button {
+  appearance: none;
+  background-color: #212121;
+  border: 1px solid;
+  border-color: #01F4B7;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roboto, Futara,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 6px;
+  padding: 6px 16px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: all .4s ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  background-color: #01F4B7;
+  transition: all .4s ease-in-out;
+  color: #212121;
+}
+
+button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.attention{
+  color: #01F4B7;
+}
+
+.bigness{
+  font-size: 60px;
+}
+
+.blueLine  {
+  border-style: solid;
+  border-width: 0px 0px 4px 0px;
+  border-color: #2e4640;
+  padding: 20px;
+  margin-right: 20%;
+}
+
+.box{
+  border-style: solid;
+  border-color: #50717b;
+}
+
+.card {
+  background-color: #273330;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  border-radius: 25px;
+  float: center;
+  font-family: Roboto, Futara,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  text-align: center;
+  border-style: solid;
+  border-color: #01F4B7;
+}
+
+.card:hover{
+    background-color: #2e4640;
+    box-shadow: rgb(108,254,218, 0.2) 4px 4px 10px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.fbar{
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #EF065B;
+  text-align: center;
+}
+
+
+.footer {
+  margin: 20px;
+  text-align: center;
+}
+
+.hbar{
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  border-color: #EF065B;
+  text-align: center;
+}
+
+.header{
+  padding: 15px;
+}
+
+.header-container{
+  padding-top: 10px;
+  float: right;
+  text-align: right;
+}
+
+.headshot {
+  border-radius: 100%;
+
+}
+
+.logo{
+  border-color: #EF065B;
+  border-style: solid;
+  color: #01F4B7;
+  float: left;
+  font-style: italic;
+  height: 48px;
+  margin: 10px;
+  padding:0;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  width: 48px;
+}
+
+.pinch{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.projects{
+  margin-top: 16px;
+  text-align: center;
+}
+
+.row{
+  margin-left: 0;
+}
+
+.shift{
+  margin-left: 4%;
+}
+
+.subtitle {
+  color: bisque;
+  padding-left: 24px;
+}
+
+.top{
+    /* margin-right: 10px; */
+  padding: 15px;
+}
+
+.websites{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
