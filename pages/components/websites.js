@@ -6,20 +6,19 @@ import cooksPic from '../cookssawlogo.png'
 
 function Websites(){
   return (
-    <div className='row websites hbar'>
+    <div className='row fbar websites'>
+    <h3 className="attention">Websites</h3>
       <div className='row'>
         <div className='col'>
-          <h3 className="attention">Websites</h3>
           <h5>Here are a few of the websites that I have designed!</h5>
         </div>
         <div className='col'>
-          <Link href="https://www.cookssaw.com">
-            <div>
-              <h5 className="padded">Cooks Saw</h5>
+          <Link href="http://www.caribouridge.com">
+            <div className="website">
+              <h5>Caribou Ridge</h5>
               <Image
-                className="padded"
-                alt="Cooks Saw"
-                src={cooksPic}
+                alt="caribou ridge"
+                src={caribouPic}
                 layout='intrinsic'
                 width={'200'}
                 height={'100'}
@@ -27,15 +26,13 @@ function Websites(){
             </div>
           </Link>
         </div>
-
         <div className='col'>
-          <Link href="http://www.caribouridge.com">
-            <div>
-              <h5 className="padded">Caribou Ridge</h5>
+          <Link href="https://www.cookssaw.com">
+            <div className="website">
+              <h5>Cooks Saw</h5>
               <Image
-                className="padded"
-                alt="caribou ridge"
-                src={caribouPic}
+                alt="Cooks Saw"
+                src={cooksPic}
                 layout='intrinsic'
                 width={'200'}
                 height={'100'}

@@ -18,7 +18,7 @@ function Stocks(){
       </div>
       <div className='col'>
         Created a CNN that uses end of day stock data to predict the next days end of day price.
-        <div className='card hbar'>Tools: <br/>
+        <div className='card hbar tools'>Tools: <br/>
           Python<br/>
           TensorFlow<br/>
           Keras<br/>

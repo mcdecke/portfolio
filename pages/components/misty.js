@@ -16,7 +16,7 @@ function Misty(){
         />
         <div className='col'>
           Developed a React website that allowed users to control Misty&apos;s movement and speech.
-          <div className='card hbar'>Tools:
+          <div className='card tools hbar'>Tools:
             JavaScript<br/>
             EJS<br/>
             Express<br/>

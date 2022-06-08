@@ -33,7 +33,7 @@ function Tiago(){
             <div className='col top'>
               Developed a pipeline to translate video recorded human motion into a motion controller for the Tiago++ robot.
 
-              <div className='col card hbar'>Tools: <br/>
+              <div className='col card hbar tools'>Tools: <br/>
                 Python<br/>
                 Webots<br/>
                 Detectron2<br/>

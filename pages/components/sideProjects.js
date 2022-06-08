@@ -6,7 +6,7 @@ function SideProjects(){
   return (
     <div>
       <div className='row top projects'>
-        <div className = 'hbar top'>
+        <div className = 'fbar top'>
           <h2 className='attention'>Other Projects</h2>
         </div>
       </div>

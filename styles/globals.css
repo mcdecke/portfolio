@@ -1,11 +1,35 @@
+:root {
+  /* Color Scheme 1 - mint/raspberry */
+  /* --mainBackground: #212121;
+  --mainAccent: #01f4B7;
+  --cardColor: #273330;
+  --cardHover: #2e4640;
+  --accentColor: #EF065B;
+  --textColor:#ddd;
+  --textAccent: bisque; */
+
+  /* Color Scheme 2 - Blue/Purple
+  --mainBackground: #1a2238;
+  --mainAccent: #9DAAF2;
+  --cardColor: #1a2238;
+  --cardHover: #1a3248;
+  --accentColor: #f4db7d;
+  --textColor: #ddd;
+
+  /* Color Scheme 3 - Blue/Purple */
+  --mainBackground: #425664;
+  --mainAccent: #C6AD8F;
+  --cardColor: #425664;
+  --cardHover: #426674;
+  --accentColor: #C6AD8F;
+  --textColor: #F6F4F2;
+}
+
 html,
 body {
-  /* padding: 0;
-  margin: 0; */
   font-family:  didot;
-  background-color: #212121;
-  /* background-color: #1e1f20; */
-  color: #ddd;
+  background-color: var(--mainBackground);
+  color: var(--textColor);
 }
 
 a {
@@ -13,17 +37,14 @@ a {
   text-decoration: none;
 }
 
-
-/* CSS */
 button {
   appearance: none;
-  background-color: #212121;
+  background-color: var(--mainBackground);
   border: 1px solid;
-  border-color: #01F4B7;
+  border-color: var(--mainAccent);
   border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
   box-sizing: border-box;
-  color: white;
+  color: var(--textColor);
   cursor: pointer;
   display: inline-block;
   font-family: Roboto, Futara,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
@@ -48,30 +69,13 @@ button:focus:not(:focus-visible):not(.focus-visible) {
 
 button:hover {
   transform: translateY(-1px);
-  background-color: #01F4B7;
+  background-color: var(--mainAccent);
   transition: all .4s ease-in-out;
-  color: #212121;
-}
-
-button:focus {
-  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
-  outline: none;
-}
-
-button:disabled {
-  background-color: #94d3a2;
-  border-color: rgba(27, 31, 35, .1);
-  color: rgba(255, 255, 255, .8);
-  cursor: default;
-}
-
-button:active {
-  background-color: #298e46;
-  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  color: var(--mainBackground);
 }
 
 .attention{
-  color: #01F4B7;
+  color: var(--mainAccent);
 }
 
 .bigness{
@@ -81,18 +85,13 @@ button:active {
 .blueLine  {
   border-style: solid;
   border-width: 0px 0px 4px 0px;
-  border-color: #2e4640;
+  border-color: var(--cardHover);
   padding: 20px;
   margin-right: 20%;
 }
 
-.box{
-  border-style: solid;
-  border-color: #50717b;
-}
-
 .card {
-  background-color: #273330;
+  background-color: var(--cardColor);
   padding: 20px;
   margin-left: 40px;
   margin-right: 40px;
@@ -102,12 +101,12 @@ button:active {
   font-family: Roboto, Futara,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   text-align: center;
   border-style: solid;
-  border-color: #01F4B7;
+  border-color: var(--mainAccent);
 }
 
 .card:hover{
-    background-color: #2e4640;
-    box-shadow: rgb(108,254,218, 0.2) 4px 4px 10px;
+    background-color: var(--cardHover);
+    box-shadow: var(--cardHover) 4px 4px 10px;
     margin-top: 10px;
     padding-bottom: 50px;
     transition: all .4s ease-in-out;
@@ -116,7 +115,7 @@ button:active {
 .fbar{
   border-style: solid;
   border-width: 0px 0px 1px 0px;
-  border-color: #EF065B;
+  border-color: var(--accentColor);
   text-align: center;
 }
 
@@ -129,7 +128,7 @@ button:active {
 .hbar{
   border-style: solid;
   border-width: 0px 1px 1px 0px;
-  border-color: #EF065B;
+  border-color: var(--accentColor);
   text-align: center;
 }
 
@@ -145,13 +144,12 @@ button:active {
 
 .headshot {
   border-radius: 100%;
-
 }
 
 .logo{
-  border-color: #EF065B;
+  border-color: var(--accentColor);
   border-style: solid;
-  color: #01F4B7;
+  color: var(--mainAccent);
   float: left;
   font-style: italic;
   height: 48px;
@@ -183,13 +181,33 @@ button:active {
 }
 
 .subtitle {
-  color: bisque;
+  color: var(--textAccent);
   padding-left: 24px;
 }
 
 .top{
-    /* margin-right: 10px; */
   padding: 15px;
+}
+
+.tools {
+  background-color: var(--mainBackground);
+}
+
+.tools:hover {
+  padding-top: 40px;
+  background-color: var(--mainBackground);
+}
+
+.website{
+  border-radius: 6px;
+}
+
+.website:hover{
+  transform: translateY(-1px);
+  background-color: var(--mainAccent);
+  transition: all .4s ease-in-out;
+  color: var(--mainBackground);
+  border-radius: 6px;
 }
 
 .websites{
@@ -197,4 +215,5 @@ button:active {
   padding-bottom: 20px;
   padding-top: 40px;
   text-align: center;
+  cursor: pointer;
 }
