@@ -13,7 +13,7 @@ function Websites(){
           <h5>Here are a few of the websites that I have designed!</h5>
         </div>
         <div className='col'>
-          <Link href="http://www.caribouridge.com">
+          <Link href="http://www.caribouridge.com" passHref>
             <div className="website">
               <h5>Caribou Ridge</h5>
               <Image
@@ -27,7 +27,7 @@ function Websites(){
           </Link>
         </div>
         <div className='col'>
-          <Link href="https://www.cookssaw.com">
+          <Link href="https://www.cookssaw.com" passHref>
             <div className="website">
               <h5>Cooks Saw</h5>
               <Image

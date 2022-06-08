@@ -23,7 +23,7 @@ function Misty(){
             Axios<br/>
             IBM Watson
           </div>
-          <Link href="https://github.com/mcdecke/MistySpeaks/">
+          <Link href="https://github.com/mcdecke/MistySpeaks/" passHref>
             <button>Github Repo <FaGithub size={30}/></button>
           </Link>
         </div>

@@ -27,10 +27,10 @@ function Stocks(){
       </div>
 
       <div className='col'>
-        <Link href="https://colab.research.google.com/drive/1QI1F_cBfxiNHwdhepTC-dVWfcIQMQ0dj?usp=sharing">
+        <Link href="https://colab.research.google.com/drive/1QI1F_cBfxiNHwdhepTC-dVWfcIQMQ0dj?usp=sharing" passHref>
           <button>Colab Notebook</button>
         </Link>
-        <Link href="https://github.com/mcdecke/CNN_Stock_Forecast">
+        <Link href="https://github.com/mcdecke/CNN_Stock_Forecast" passHref>
           <button>Github Repo <FaGithub size={20}/></button>
         </Link>
       </div>

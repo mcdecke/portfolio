@@ -26,7 +26,7 @@ function Ethereum(){
           React<br/>
           Next<br/>
         </div>
-        <Link href="https://github.com/mcdecke/CNN_Stock_Forecast">
+        <Link href="https://github.com/mcdecke/CNN_Stock_Forecast" passHref>
           <button>Github Repo <FaGithub size={30}/></button>
         </Link>
       </div>

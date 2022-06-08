@@ -19,10 +19,10 @@ function Tiago(){
             height={'300'}
           />
           <div>
-            <Link href="https://github.com/mcdecke/TiagoWaves">
+            <Link href="https://github.com/mcdecke/TiagoWaves" passHref>
               <button>Github Repo <FaGithub size={20}/></button>
             </Link>
-            <Link href="https://colab.research.google.com/gist/mcdecke/fcbe94f1bc562bc0c234afd959e17cae/tiagowavecamcap.ipynb">
+            <Link href="https://colab.research.google.com/gist/mcdecke/fcbe94f1bc562bc0c234afd959e17cae/tiagowavecamcap.ipynb" passHref>
               <button>Colab Notebook</button>
             </Link>
           </div>
