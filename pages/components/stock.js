@@ -31,7 +31,7 @@ function Stocks(){
           <button>Colab Notebook</button>
         </Link>
         <Link href="https://github.com/mcdecke/CNN_Stock_Forecast" passHref>
-          <button>Github Repo<FaGithub size={20}/></button>
+          <button><FaGithub size={20}/></button>
         </Link>
       </div>
 

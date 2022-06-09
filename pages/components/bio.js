@@ -3,7 +3,7 @@ import headshotPic from '../images/mac-headshot-sqr.jpg'
 
 function Bio(){
   return (
-    <div className='row top'>
+    <div className='row'>
       <div className='col-md-3'>
           <Image
             className = 'headshot'
@@ -20,11 +20,6 @@ function Bio(){
         <h1 className='attention bigness shift'> Mac Decker </h1>
         <h5 className='blueLine'>
           <div className='pinch'> I am a software engineer and full-stack web developer, passionate about building accessible technologies, machine learning and robotics.
-          </div>
-        </h5>
-        <h5 className='blueLine'>
-          <div className='pinch'>
-          I currently work remote for freelance clients, being open to new opportunities.
           </div>
         </h5>
       </div>

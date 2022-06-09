@@ -5,8 +5,8 @@ import Stocks from './stock'
 function SideProjects(){
   return (
     <div>
-      <div className='row top projects'>
-        <div className = 'fbar top'>
+      <div className='row projects'>
+        <div className = 'fbar'>
           <h2 className='attention'>Other Projects</h2>
         </div>
       </div>

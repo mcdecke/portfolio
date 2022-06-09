@@ -162,13 +162,13 @@ button:hover {
 }
 
 .pinch{
-  width: 60%;
+  width: 80%;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 4%;
 }
 
 .projects{
-  margin-top: 16px;
+  /* margin-top: 16px; */
   text-align: center;
 }
 

@@ -21,9 +21,10 @@ function Misty(){
             EJS<br/>
             Express<br/>
             Axios<br/>
-            IBM Watson
+            IBM Watson<br/>
+            Misty Robot
           </div>
-          <Link href="https://github.com/mcdecke/MistySpeaks/" passhref>
+          <Link href="https://github.com/mcdecke/MistySpeaks/" passHref>
             <button>Github Repo <FaGithub size={30}/></button>
           </Link>
         </div>
