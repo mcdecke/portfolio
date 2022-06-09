@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
-import headshotPic from '../mac-headshot-sqr.jpg'
+import headshotPic from '../images/mac-headshot-sqr.jpg'
 
 function Bio(){
   return (

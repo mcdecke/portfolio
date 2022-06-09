@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import tiagoPic from '../skeletonWave.png'
-import dualWave from '../waveSBS.gif'
+import tiagoPic from '../images/skeletonWave.png'
+import dualWave from '../images/waveSBS.gif'
 import { FaGithub } from 'react-icons/fa';
 
 function Tiago(){

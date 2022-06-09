@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import mistyPic from '../misty_ii.jpg'
+import mistyPic from '../images/misty_ii.jpg'
 import { FaGithub } from 'react-icons/fa';
 
 function Misty(){
@@ -23,7 +23,7 @@ function Misty(){
             Axios<br/>
             IBM Watson
           </div>
-          <Link href="https://github.com/mcdecke/MistySpeaks/" passHref>
+          <Link href="https://github.com/mcdecke/MistySpeaks/" passhref>
             <button>Github Repo <FaGithub size={30}/></button>
           </Link>
         </div>

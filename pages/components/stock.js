@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import forecastPic from '../stock_pred.png'
+import forecastPic from '../images/stock_pred.png'
 import { FaGithub } from 'react-icons/fa';
 
 function Stocks(){
@@ -31,7 +31,7 @@ function Stocks(){
           <button>Colab Notebook</button>
         </Link>
         <Link href="https://github.com/mcdecke/CNN_Stock_Forecast" passHref>
-          <button>Github Repo <FaGithub size={20}/></button>
+          <button>Github Repo<FaGithub size={20}/></button>
         </Link>
       </div>
 

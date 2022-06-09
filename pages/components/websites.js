@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import caribouPic from '../01.jpeg'
-import cooksPic from '../cookssawlogo.png'
+import caribouPic from '../images/01.jpeg'
+import cooksPic from '../images/cookssawlogo.png'
 
 
 function Websites(){

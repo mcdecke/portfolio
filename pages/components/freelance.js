@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { MdOutlineEmail } from 'react-icons/md';
 
 function Freelance(){
