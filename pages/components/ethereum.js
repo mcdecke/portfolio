@@ -18,15 +18,16 @@ function Ethereum(){
       <div className='col'>
         Implemented a layer 2 solution to reduce gas fees by over 99% for an Ethereum based NFT game, played on a React web app.
         <div className='card hbar tools'>Tools:
-          Solidity<br/>
           Ethereum<br/>
-          Truffle<br/>
-          Metamask <br/>
+          Solidity<br/>
           JavaScript<br/>
           React<br/>
           Next<br/>
+          Truffle<br/>
+          Metamask <br/>
+
         </div>
-        <Link href="https://github.com/mcdecke/CNN_Stock_Forecast" passHref>
+        <Link href="https://github.com/mcdecke/GameDapp" passHref>
           <button>Github Repo <FaGithub size={30}/></button>
         </Link>
       </div>
