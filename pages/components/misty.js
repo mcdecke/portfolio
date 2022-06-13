@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 function Misty(){
   return(
-    <div className='card vh-100'>
+    <card className='card vh-100'>
       <h2>Misty</h2>
         <Image
           alt="Misty Motion Control"
@@ -14,21 +14,21 @@ function Misty(){
           width={'300'}
           height={'300'}
         />
-        <div className='col'>
+        <description className='col'>
           Developed a React website that allowed users to control Misty&apos;s movement and speech.
-          <div className='card tools hbar'>Tools:
+          <tools className='card tools hbar'>Tools:
             JavaScript<br/>
             EJS<br/>
             Express<br/>
             Axios<br/>
             IBM Watson<br/>
             Misty Robot
-          </div>
+          </tools>
           <Link href="https://github.com/mcdecke/MistySpeaks/" passHref>
             <button>Github Repo <FaGithub size={30}/></button>
           </Link>
-        </div>
-      </div>
+        </description>
+      </card>
   )
 }
 

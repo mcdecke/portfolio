@@ -9,7 +9,7 @@ function Websites(){
     <div className='row fbar websites'>
     <h3 className="attention">Websites</h3>
       <div className='row'>
-        <div className='col'>
+        <links className='col'>
           <Link href="http://www.caribouridge.com" passHref>
             <div className="website">
               <h5>Caribou Ridge</h5>
@@ -22,10 +22,10 @@ function Websites(){
               />
             </div>
           </Link>
-        </div>
-        <div className='col'>
+        </links>
+        <center className='col'>
           <h5>Here are a few of the websites that I have designed!</h5>
-        </div>
+        </center>
         <div className='col'>
           <Link href="https://www.cookssaw.com" passHref>
             <div className="website">

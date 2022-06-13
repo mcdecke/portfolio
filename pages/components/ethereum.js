@@ -6,18 +6,19 @@ import { SiSolidity } from 'react-icons/si';
 
 function Ethereum(){
   return(
-    <div className='card vh-100'>
+    <card className='card vh-100'>
       <h2>NFT</h2>
-      <div className="col row attention">
+      <icons className="col row attention">
         <GiPokerHand size={70}/>
-        <div className=" attention"><SiSolidity size={70}/>
-        <FaEthereum size={70}/>
+        <div className=" attention">
+          <SiSolidity size={70}/>
+          <FaEthereum size={70}/>
         </div>
-      </div>
+      </icons>
 
-      <div className='col'>
+      <description className='col'>
         Implemented a layer 2 solution to reduce gas fees by over 99% for an Ethereum based NFT game, played on a React web app.
-        <div className='card hbar tools'>Tools:
+        <tools className='card hbar tools'>Tools:
           Ethereum<br/>
           Solidity<br/>
           JavaScript<br/>
@@ -26,12 +27,12 @@ function Ethereum(){
           Truffle<br/>
           Metamask <br/>
 
-        </div>
+        </tools>
         <Link href="https://github.com/mcdecke/GameDapp" passHref>
           <button>Github Repo <FaGithub size={30}/></button>
         </Link>
-      </div>
-    </div>
+      </description>
+    </card>
   )
 }
 

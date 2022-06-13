@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 function Stocks(){
   return(
-    <div className='card vh-100'>
+    <card className='card vh-100'>
       <h5>Stock Forecasting with Convolutional Neural Networks</h5>
       <div className='row'>
         <Image
@@ -16,7 +16,7 @@ function Stocks(){
           height={'300'}
         />
       </div>
-      <div className='col'>
+      <description className='col'>
         Created a CNN that uses end of day stock data to predict the next days end of day price.
         <div className='card hbar tools'>Tools: <br/>
           Python<br/>
@@ -24,18 +24,18 @@ function Stocks(){
           Keras<br/>
           Pandas
         </div>
-      </div>
+      </description >
 
-      <div className='col'>
+      <buttons className='col'>
         <Link href="https://colab.research.google.com/drive/1QI1F_cBfxiNHwdhepTC-dVWfcIQMQ0dj?usp=sharing" passHref>
           <button>Colab Notebook</button>
         </Link>
         <Link href="https://github.com/mcdecke/CNN_Stock_Forecast" passHref>
           <button><FaGithub size={20}/></button>
         </Link>
-      </div>
+      </buttons>
 
-    </div>
+    </card>
   )
 }
 

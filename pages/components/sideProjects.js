@@ -11,17 +11,17 @@ function SideProjects(){
         </div>
       </div>
 
-      <div className='row projects'>
-        <div  className='col'>
+      <cards className='row projects'>
+        <card className='col'>
           <Misty></Misty>
-        </div>
-        <div  className='col'>
+        </card>
+        <card className='col'>
           <Stocks></Stocks>
-        </div>
-        <div  className='col'>
+        </card>
+        <card className='col'>
           <Ethereum></Ethereum>
-        </div>
-      </div>
+        </card>
+      </cards>
       <div className='fbar top'></div>
     </div>
   )

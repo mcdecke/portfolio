@@ -2,7 +2,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 function Freelance(){
   return (
-    <div className='footer row'>
+    <footer className='footer row'>
       <h3>I also take on freelance opportunities!</h3>
       <h5>
         Have an exciting project that you need help with? Feel free to&nbsp;
@@ -10,7 +10,7 @@ function Freelance(){
           <a href="mailto:mcdecke@gmail.com" passHref>reach out!</a>
         </u>
       </h5>
-    </div>
+    </footer>
   )
 }
 

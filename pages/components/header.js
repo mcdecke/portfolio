@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 function Header(){
   return(
-    <div className="contianer row header">
-      <div className='logo'>MD</div>
-      <div className='col row header-container'>
+    <header className="contianer row header">
+      <logo className='logo'>MD</logo>
+      <contact className='col row header-container'>
         <h5 className='col-md-6 offset-md-6'>
           <a href="mailto:mcdecke@gmail.com">
             <button className='attention hbar'>Contact Me <MdOutlineEmail/></button>
@@ -15,8 +15,8 @@ function Header(){
             <button className='attention hbar'>See Resume <FaFileAlt /></button>
           </Link>
         </h5>
-      </div>
-    </div>
+      </contact>
+    </header>
   )
 }
 
