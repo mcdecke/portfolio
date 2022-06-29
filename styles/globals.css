@@ -210,11 +210,12 @@ button:hover {
 }
 
 .website:hover{
-  transform: translateY(-1px);
   background-color: var(--mainAccent);
-  transition: all .4s ease-in-out;
-  color: var(--mainBackground);
   border-radius: 6px;
+  color: var(--mainBackground);
+  cursor: pointer;
+  transform: translateY(-1px);
+  transition: all .4s ease-in-out;
 }
 
 .websites{
@@ -222,5 +223,4 @@ button:hover {
   padding-bottom: 20px;
   padding-top: 40px;
   text-align: center;
-  cursor: pointer;
 }
