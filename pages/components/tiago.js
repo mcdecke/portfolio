@@ -16,6 +16,8 @@ function Tiago(){
             layout='intrinsic'
             width={'400'}
             height={'300'}
+            loading='eager'
+            priority='high'
           />
           <buttons>
             <Link href="https://github.com/mcdecke/TiagoWaves" passHref>
