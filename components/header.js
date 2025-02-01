@@ -5,7 +5,8 @@ import Link from 'next/link'
 function Header(){
   return(
     <header className="contianer row header">
-      <logo className='logo'>MD</logo>
+      <logo className='logo'>MD
+      </logo>
       <contact className='col row header-container'>
         <h5 className='col-md-6 offset-md-6'>
           <a href="mailto:mcdecke@gmail.com" rel="noreferrer">

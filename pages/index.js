@@ -1,12 +1,12 @@
 // Components
-import Bio from './components/bio'
-import Header from './components/header'
-import Freelance from './components/freelance'
-import Websites from './components/websites';
+import Bio from '../components/bio'
+import Header from '../components/header'
+import Freelance from '../components/freelance'
+import Websites from '../components/websites';
 
 // Project Components
-import MainProjects from './components/mainProjects'
-import SideProjects from './components/sideProjects'
+import MainProjects from '../components/mainProjects'
+import SideProjects from '../components/sideProjects'
 
 function HomePage() {
   return(
