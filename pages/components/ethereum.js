@@ -34,9 +34,6 @@ function Ethereum(){
           Metamask <br/>
 
         </tools>
-        <Link href="https://mac-game-dapp.vercel.app/" passHref>
-          <button>Dapp Site<FaGithub size={30}/></button>
-        </Link>
         <Link href="https://github.com/mcdecke/GameDapp" passHref>
           <button>Github Repo <FaGithub size={30}/></button>
         </Link>

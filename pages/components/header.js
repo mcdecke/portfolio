@@ -11,9 +11,9 @@ function Header(){
           <a href="mailto:mcdecke@gmail.com">
             <button className='attention hbar'>Contact Me <MdOutlineEmail/></button>
           </a>
-          <Link href='Robert_M_Decker_SWE_Resume.pdf' target="_blank" download passHref>
+          <a href='https://docs.google.com/document/d/18GcRwyrRQTiojUbXzi78uq28kc_RYw3ohdb_WIOZZ44/edit?tab=t.0' target="_blank" passHref>
             <button className='attention hbar'>See Resume <FaFileAlt /></button>
-          </Link>
+          </a>
         </h5>
       </contact>
     </header>
