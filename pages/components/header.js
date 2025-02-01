@@ -8,10 +8,10 @@ function Header(){
       <logo className='logo'>MD</logo>
       <contact className='col row header-container'>
         <h5 className='col-md-6 offset-md-6'>
-          <a href="mailto:mcdecke@gmail.com">
+          <a href="mailto:mcdecke@gmail.com" rel="noreferrer">
             <button className='attention hbar'>Contact Me <MdOutlineEmail/></button>
           </a>
-          <a href='https://docs.google.com/document/d/18GcRwyrRQTiojUbXzi78uq28kc_RYw3ohdb_WIOZZ44/edit?tab=t.0' target="_blank" passHref>
+          <a href='https://docs.google.com/document/d/18GcRwyrRQTiojUbXzi78uq28kc_RYw3ohdb_WIOZZ44/edit?tab=t.0' target="_blank" rel="noreferrer" passHref>
             <button className='attention hbar'>See Resume <FaFileAlt /></button>
           </a>
         </h5>

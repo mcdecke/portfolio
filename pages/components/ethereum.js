@@ -10,7 +10,7 @@ function Ethereum(){
       <Link href="https://mac-game-dapp.vercel.app/" passHref>
       <div>
         <div className='row'>
-          <h2 className="website">Dapp Game <FaExternalLinkAlt size={20}/></h2>
+          <h2 className="website">Dapp Game <FaExternalLinkAlt size={20}/><h2>
         </div>
         <icons className="col row attention">
           <GiPokerHand size={70}/>
@@ -34,7 +34,7 @@ function Ethereum(){
           Metamask <br/>
 
         </tools>
-        <Link href="https://github.com/mcdecke/GameDapp" passHref>
+        <Link href="https://github.com/mcdecke/GameDapp" rel="noreferrer" passHref>
           <button>Github Repo <FaGithub size={30}/></button>
         </Link>
       </description>
